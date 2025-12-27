@@ -1,7 +1,7 @@
 name: casahub
 services:
   casahub:
-    image: nandinande/casahub:latest
+    image: ghcr.io/${GITHUB_USERNAME:-skyious}/casahub:latest
     container_name: casahub
     restart: unless-stopped
     network_mode: bridge
